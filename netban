@@ -13,6 +13,10 @@
 #
 # Own nft table (inet netban) at priority -10: does not touch UFW,
 # firewalld or other rules. See README.md.
+#
+# Author:  phaedonv — Catalink Limited (https://catalink.eu)
+# Source:  https://github.com/phaedonv/netban
+# License: MIT
 
 set -uo pipefail
 

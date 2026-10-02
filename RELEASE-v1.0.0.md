@@ -16,6 +16,6 @@ Linux with nftables, Bash 4+, root/sudo. systemd optional (needed only for resto
 
 ### Install
 ```bash
-curl -fsSLO https://raw.githubusercontent.com/<you>/netban/v1.0.0/netban
+curl -fsSLO https://raw.githubusercontent.com/phaedonv/netban/v1.0.0/netban
 sudo bash netban --install
 ```

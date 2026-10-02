@@ -88,14 +88,14 @@ It works alongside UFW and firewalld.
 ## Install
 
 ```bash
-curl -fsSLO https://raw.githubusercontent.com/<you>/netban/main/netban
+curl -fsSLO https://raw.githubusercontent.com/phaedonv/netban/main/netban
 sudo bash netban --install
 ```
 
 Or from a clone:
 
 ```bash
-git clone https://github.com/<you>/netban.git
+git clone https://github.com/phaedonv/netban.git
 sudo bash netban/netban --install
 ```
 
@@ -207,6 +207,10 @@ sudo rm -rf /etc/netban
 sudo systemctl daemon-reload
 ```
 
+## Author
+
+Written by [phaedonv](https://github.com/phaedonv) at [Catalink Limited](https://catalink.eu).
+
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © Catalink Limited
